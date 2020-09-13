@@ -93,9 +93,8 @@ header #b-header h2 {
 }
 
 main {
-  width: 80%;
-  margin: auto;
   padding: 2rem 0 2rem 0;
+  background-color: #fafafa;
 }
 
 main .container {
@@ -112,6 +111,8 @@ main .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 main .container h1 {
@@ -162,7 +163,7 @@ main .container .t-f {
 }
 
 main .container .t-f .table {
-  min-width: 60%;
+  min-width: 50%;
   padding: 1rem;
 }
 
@@ -182,7 +183,6 @@ main .container .t-f .table table {
   padding: 1rem;
   -webkit-box-shadow: -10px 10px 0 #f5bb47;
           box-shadow: -10px 10px 0 #f5bb47;
-  margin-left: -2rem;
 }
 
 main .container .t-f .table table td,
@@ -203,13 +203,22 @@ main .container .t-f .table table tr:nth-child(even) {
 main .container .t-f .form {
   background-color: #4cbfe6;
   font-family: 'Grandstander', cursive;
-  border-top-left-radius: 15px;
-  -webkit-box-shadow: 10px 10px 0 #f5bb47;
-          box-shadow: 10px 10px 0 #f5bb47;
+  border-top-right-radius: 15px;
+  -webkit-box-shadow: -10px 10px 0 #f5bb47;
+          box-shadow: -10px 10px 0 #f5bb47;
   margin-top: 5rem;
+  margin-right: 5rem;
 }
 
 main .container .t-f .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
   padding: 0.5rem;
   text-align: right;
 }
@@ -221,6 +230,7 @@ main .container .t-f .form form h2 {
 }
 
 main .container .t-f .form form input {
+  width: 200px;
   font-size: 15px;
   padding: 0.5rem;
   margin: 0.3rem;
@@ -249,9 +259,6 @@ main .container .t-f .form form textarea {
   color: #424242;
   padding: 1rem;
   font-size: 15px;
-  text-align: right;
-  width: 400px;
-  padding: 3rem;
 }
 
 footer {

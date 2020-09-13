@@ -94,6 +94,7 @@ header #b-header h2 {
 
 main {
   padding: 2rem 0 2rem 0;
+  background-color: #fafafa;
 }
 
 main .container {
@@ -111,6 +112,8 @@ main .container {
       -ms-flex-align: center;
           align-items: center;
   border-top-right-radius: 15px;
+  max-width: 80%;
+  margin: auto;
 }
 
 main .container h1 {
