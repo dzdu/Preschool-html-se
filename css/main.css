@@ -27,6 +27,9 @@ header {
   border-bottom-right-radius: 30px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header img {

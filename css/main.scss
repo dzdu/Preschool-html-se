@@ -20,6 +20,9 @@ header {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     transition: 0.2s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     img {
         height: 200px;

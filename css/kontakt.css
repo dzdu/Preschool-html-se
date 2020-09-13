@@ -249,6 +249,9 @@ main .container .t-f .form form textarea {
   color: #424242;
   padding: 1rem;
   font-size: 15px;
+  text-align: right;
+  width: 400px;
+  padding: 3rem;
 }
 
 footer {
