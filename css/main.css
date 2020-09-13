@@ -92,9 +92,9 @@ header #b-header h2 {
   color: #fff;
   margin: auto;
   font-family: 'Grandstander', cursive;
-  font-size: 20px;
+  font-size: 30px;
   width: 80%;
-  margin-top: 3rem;
+  padding: 3rem;
   text-shadow: 0 2px 1px #424242;
 }
 
@@ -328,7 +328,7 @@ body footer .fa {
     top: -20px;
   }
   50% {
-    top: 20px;
+    top: 10px;
   }
   100% {
     top: -20px;
@@ -340,7 +340,7 @@ body footer .fa {
     top: -20px;
   }
   50% {
-    top: 20px;
+    top: 10px;
   }
   100% {
     top: -20px;
