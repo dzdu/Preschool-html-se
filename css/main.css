@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1494029722188-672a328c4989?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1382&q=80");
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header img {
+  height: 200px;
+}
+
+header ul {
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+header .navlink {
+  padding: 1.3rem;
+  font-size: 30px;
+  text-decoration: none;
+  color: #4cbfe6;
+  font-family: 'Grandstander', cursive;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #fff;
+}
+
+header .navlink:hover {
+  color: #424242;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 1.5rem;
+}
+
+header #home {
+  color: #f5bb47;
+  padding: 1.5rem;
+}
+
+header #b-header {
+  text-align: center;
+}
+
+header #b-header .fa {
+  font-size: 80px;
+  color: #fff;
+  bottom: 0;
+  text-align: center;
+  -webkit-animation: jump 5s infinite;
+          animation: jump 5s infinite;
+  position: relative;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header #b-header .fa:hover {
+  color: #4cbfe6;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header #b-header h2 {
+  color: #fff;
+  margin: auto;
+  font-family: 'Grandstander', cursive;
+  font-size: 20px;
+  width: 80%;
+  margin-top: 3rem;
+  text-shadow: 0 2px 1px #424242;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body h1 {
+  font-family: 'Grandstander', cursive;
+  padding: 3rem;
+  text-align: center;
+  font-size: 40px;
+  color: #424242;
+  margin: 1rem 0 0 0;
+}
+
+body main {
+  max-width: 100%;
+}
+
+body main .container .blockone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .container .blockone img {
+  width: 500px;
+}
+
+body main .container .blockone h2 {
+  font-family: 'Grandstander', cursive;
+  margin: 0 1rem 0 0;
+  font-size: 28px;
+  color: #ffffff;
+  background-color: #4cbfe6;
+  padding: 5rem;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+body main .container .blocktwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+body main .container .blocktwo img {
+  width: 500px;
+}
+
+body main .container .blocktwo h2 {
+  font-family: 'Grandstander', cursive;
+  margin: 0 0 0 1rem;
+  font-size: 28px;
+  color: #ffffff;
+  background-color: #f5bb47;
+  padding: 5rem;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+body section {
+  margin: auto;
+  padding: 1rem;
+}
+
+body section h2 {
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  padding: 1rem;
+  font-size: 35px;
+  color: #424242;
+}
+
+body section .news article:nth-child(odd) {
+  margin: 3rem 0 3rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  background-color: #4cbfe6;
+  color: #fff;
+  -webkit-box-shadow: 10px 8px #f5bb47;
+          box-shadow: 10px 8px #f5bb47;
+}
+
+body section .news article:nth-child(odd) h3 {
+  text-align: left;
+  padding-bottom: 0.5rem;
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+}
+
+body section .news article:nth-child(odd) .newstext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .news article:nth-child(odd) .newstext p {
+  padding: 1rem;
+  font-family: 'Grandstander', cursive;
+  font-size: 20px;
+  text-align: left;
+}
+
+body section .news article:nth-child(odd) .newstext img {
+  width: 200px;
+}
+
+body section .news article:nth-child(even) {
+  margin: 3rem 0 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  background-color: #f5bb47;
+  color: #fff;
+  -webkit-box-shadow: 10px 8px #4cbfe6;
+          box-shadow: 10px 8px #4cbfe6;
+}
+
+body section .news article:nth-child(even) h3 {
+  text-align: right;
+  padding-bottom: 0.5rem;
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+}
+
+body section .news article:nth-child(even) p {
+  padding: 1rem;
+  font-family: 'Grandstander', cursive;
+  font-size: 20px;
+  text-align: right;
+}
+
+body footer {
+  bottom: 0;
+  background-color: #4cbfe6;
+  margin-top: auto;
+  padding: 1rem;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Grandstander', cursive;
+  color: #fff;
+}
+
+body footer .contactUs h3 {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+
+body footer .contactUs h4 {
+  font-size: 25px;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+body footer .map {
+  text-align: center;
+  font-size: 25px;
+}
+
+body footer .fa {
+  font-size: 30px;
+  color: #fff;
+  background-color: #f5bb47;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+@-webkit-keyframes jump {
+  0% {
+    top: -20px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: -20px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: -20px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: -20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

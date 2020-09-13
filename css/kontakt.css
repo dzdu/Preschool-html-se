@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header img {
+  width: 150px;
+}
+
+header ul {
+  margin: 0 2rem 0 0;
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+header .navlink {
+  padding: 1.3rem;
+  font-size: 25px;
+  text-decoration: none;
+  color: #4cbfe6;
+  font-family: 'Grandstander', cursive;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #fff;
+}
+
+header .navlink:hover {
+  color: #424242;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 1.5rem;
+}
+
+header #current {
+  color: #f5bb47;
+  font-size: 30px;
+}
+
+header #b-header {
+  text-align: center;
+}
+
+header #b-header .fa {
+  font-size: 80px;
+  color: #fff;
+  bottom: 0;
+  padding-top: 1rem;
+  text-align: center;
+  -webkit-animation: jump 5s infinite;
+          animation: jump 5s infinite;
+  position: relative;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header #b-header .fa:hover {
+  color: #4cbfe6;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header #b-header h2 {
+  color: #fff;
+  margin: auto;
+  font-family: 'Grandstander', cursive;
+  font-size: 25px;
+  width: 80%;
+  margin-top: 1rem;
+  text-shadow: 0 2px 1px #424242;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0 2rem 0;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container h1 {
+  color: #424242;
+  font-family: 'Grandstander', cursive;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+main .container .contact {
+  background-color: #f5bb47;
+  padding: 1rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 1rem 1rem 0 #4cbfe6;
+          box-shadow: 1rem 1rem 0 #4cbfe6;
+}
+
+main .container .contact h1 {
+  color: #fff;
+  font-size: 35px;
+  margin: 1rem;
+  font-family: 'Grandstander', cursive;
+  text-align: center;
+}
+
+main .container .contact h4 {
+  font-family: 'Grandstander', cursive;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 25px;
+  color: #fff;
+}
+
+main .container .t-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .t-f .table {
+  min-width: 60%;
+  padding: 1rem;
+}
+
+main .container .t-f .table h2 {
+  color: #424242;
+  padding-bottom: 1rem;
+  font-family: 'Grandstander', cursive;
+}
+
+main .container .t-f .table table {
+  border-collapse: collapse;
+  color: #272727;
+  width: 100%;
+  background-color: #4cbfe6;
+  font-family: 'Grandstander', cursive;
+  text-align: left;
+  padding: 1rem;
+  -webkit-box-shadow: -10px 10px 0 #f5bb47;
+          box-shadow: -10px 10px 0 #f5bb47;
+  margin-left: -2rem;
+}
+
+main .container .t-f .table table td,
+main .container .t-f .table table th {
+  border: 1px solid #424242;
+  text-align: left;
+  padding: 8px;
+}
+
+main .container .t-f .table table tr:nth-child(odd) {
+  background-color: #4cbfe6;
+}
+
+main .container .t-f .table table tr:nth-child(even) {
+  background-color: #f5bb47;
+}
+
+main .container .t-f .form {
+  background-color: #4cbfe6;
+  font-family: 'Grandstander', cursive;
+  border-top-left-radius: 15px;
+  -webkit-box-shadow: 10px 10px 0 #f5bb47;
+          box-shadow: 10px 10px 0 #f5bb47;
+  margin-top: 5rem;
+}
+
+main .container .t-f .form form {
+  padding: 0.5rem;
+  text-align: right;
+}
+
+main .container .t-f .form form h2 {
+  text-align: center;
+  color: #424242;
+  padding: 1rem;
+}
+
+main .container .t-f .form form input {
+  font-size: 15px;
+  padding: 0.5rem;
+  margin: 0.3rem;
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+}
+
+main .container .t-f .form form input::-webkit-input-placeholder {
+  color: #424242;
+}
+
+main .container .t-f .form form input:-ms-input-placeholder {
+  color: #424242;
+}
+
+main .container .t-f .form form input::-ms-input-placeholder {
+  color: #424242;
+}
+
+main .container .t-f .form form input::placeholder {
+  color: #424242;
+}
+
+main .container .t-f .form form textarea {
+  font-family: 'Grandstander', cursive;
+  color: #424242;
+  padding: 1rem;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #4cbfe6;
+  margin-top: auto;
+  padding: 1rem;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Grandstander', cursive;
+  color: #fff;
+  bottom: 0;
+}
+
+footer .contactUs h3 {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer .contactUs h4 {
+  font-size: 25px;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+footer .map {
+  text-align: center;
+  font-size: 25px;
+}
+
+footer .fa {
+  font-size: 30px;
+  color: #fff;
+  background-color: #f5bb47;
+  border-radius: 50%;
+  padding: 1rem;
+}
+/*# sourceMappingURL=kontakt.css.map */
